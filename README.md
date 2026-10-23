@@ -71,4 +71,4 @@ The complete, sanitized PostgreSQL analysis script is available directly in this
 ## Actionable Business Recommendations
 1. **Targeted Fulfillment SLAs:** Implement strict dispatch windows (e.g., 48-hour limit) specifically for the identified top problem sellers rather than imposing blanket platform policies.
 2. **Merchant Suspension Thresholds:** Automatically flag or temporarily downgrade marketplace visibility for merchants whose 30-day average seller time share exceeds **50%**.
-3. **Courier Partner Optimization:** Renegotiate carrier agreements and regional transit routing to reduce the baseline **9.3-day courier transit duration**[cite: 5].
+3. **Courier Partner Optimization:** Renegotiate carrier agreements and regional transit routing to reduce the baseline **9.3-day courier transit duration**.
