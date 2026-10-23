@@ -72,3 +72,12 @@ The complete, sanitized PostgreSQL analysis script is available directly in this
 1. **Targeted Fulfillment SLAs:** Implement strict dispatch windows (e.g., 48-hour limit) specifically for the identified top problem sellers rather than imposing blanket platform policies.
 2. **Merchant Suspension Thresholds:** Automatically flag or temporarily downgrade marketplace visibility for merchants whose 30-day average seller time share exceeds **50%**.
 3. **Courier Partner Optimization:** Renegotiate carrier agreements and regional transit routing to reduce the baseline **9.3-day courier transit duration**.
+
+
+## Data Source
+The dataset used for this analysis is the public **Brazilian E-Commerce Real Dataset by Olist**, available on Kaggle:
+👉 **[Olist E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
+
+**Tables Analyzed:**
+* `olist_orders_dataset.csv` — Order lifecycles and status timestamps.
+* `olist_order_items_dataset.csv` — Item mapping and seller identification.
