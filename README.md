@@ -28,7 +28,8 @@ Using PostgreSQL, the analysis reveals that while **courier transit accounts for
   * **Conditional Aggregation:** `COUNT(CASE WHEN ...)` to calculate percentage thresholds across order cohorts.
   * **Relational Multi-Table Joins:** Joining `olist_orders_dataset` with `olist_order_items_dataset` to map order lifecycles to individual merchant IDs.
   * **Statistical Noise Control:** Applying `HAVING COUNT(DISTINCT order_id) >= 10` to filter out low-volume outliers.
-* **Interactive Tableau Dashboard:** https://public.tableau.com/app/profile/onanefe.idjerhe/viz/OlistLogisticsAnalysis_17931629889970/Sheet1
+* **Interactive Tableau Dashboard:**
+📊 View the live interactive visualization on Tableau Public: [Olist Logistics Dashboard]([YOUR_TABLEAU_PUBLIC_URL_HERE](https://public.tableau.com/app/profile/onanefe.idjerhe/viz/OlistLogisticsAnalysis_17931629889970/Sheet1))
 
 ---
 
